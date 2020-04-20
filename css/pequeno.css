@@ -33,11 +33,12 @@
     .bienvenido2 .fas{
         width: 100%;
         justify-content: center;
-        font-size: 35px;
+        font-size: 36px;
         padding-top: 25px;
         text-align: center;
         display: flex;
         visibility: visible;
+
     }
     .btn {
         margin-top: 20px;
