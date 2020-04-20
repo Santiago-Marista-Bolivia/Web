@@ -32,7 +32,6 @@
     float: left;
     text-transform: uppercase;
     width: auto;
-    margin-left: 25px;
   }
 
 
@@ -80,10 +79,6 @@ nav ul li a{
 .menu{
     float: right;
     line-height: 100px;
-    margin-right: 95px;
-    display: flex;
-    justify-content: right;
-    
   }
   .menu a{
     color: #fff;
@@ -107,7 +102,7 @@ nav ul li a{
   .menu a:hover,
   .show-menu-btn:hover,
   .hide-menu-btn:hover{
-    color: #3498db;
+    color: #544BDC;
   }
   
   #chk{
