@@ -388,7 +388,7 @@ input[type="submit"]:hover{
 
 }
 .container-ciudades .card2 img{
-    width: 330px;
+    width: 100%;
     height: 280px;
 
 }
