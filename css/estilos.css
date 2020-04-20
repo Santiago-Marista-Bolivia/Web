@@ -249,6 +249,9 @@ label{
     padding-top: 30px;
     font-size: 44px;
 }
+.bienvenido2{
+    visibility: hidden;
+}
 .btn{
     display: inline-block;
     min-width: 180px;
