@@ -9,16 +9,17 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/pequeno.css">
     <link rel="stylesheet" href="css/mediano.css">
-
+    <link rel="stylesheet" href="css/pequeno.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/scroll.js"></script>
 
 
 </head>
 
 <body>
 
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <div class="logo">
 
@@ -36,6 +37,24 @@
             </nav>
 
         </div>
+    </header> -->
+    <header class="header">
+        <h2 class="logo">Santiago Marista</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="">Futuro Estudiante</a>
+            <a href="">Graduados</a>
+            <a href="">Pastoral</a>
+            <a href="html/contacto.html">Contactanos</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
     </header>
 
 
@@ -57,19 +76,28 @@
         <div class="card">
             <img src="img/inicial2.jpg" alt="logoMarista">
             <h4>Nivel Inicial</h4>
-            <p>El colegio Santiago Marista forma estudiantes capacitados y comprometidos con la fe y el conocimiento, ofreciendo una infraestructura unica para los niños de Kinder con un parque privado y un patio, sin la intervencion de los estudiantes de Primaria y Secundaria, al mismo timpo brindando la seguridad de nuestros estudiantes.</p>
+            <p>El colegio Santiago Marista forma estudiantes capacitados y comprometidos con la fe y el conocimiento,
+                ofreciendo una infraestructura unica para los niños de Kinder con un parque privado y un patio, sin la
+                intervencion de los estudiantes de Primaria y Secundaria, al mismo timpo brindando la seguridad de
+                nuestros estudiantes.</p>
             <a href="" class="btn">Saber más</a>
         </div>
         <div class="card">
             <img src="img/primaria2.jpg" alt="LosMaristas">
             <h4>Primaria</h4>
-            <p>El Colegio educa atravez del contexto de vida, del clima familiar y acogeder que se respiere, de las relaciones interpersonales de calidad del esmerado cuidado con que los educadores atienden a las necesidades de los estudiantes, ayuda a los estudiantes compementerse con si mismos, fortalenciendolos para la vida</p>
+            <p>El Colegio educa atravez del contexto de vida, del clima familiar y acogeder que se respiere, de las
+                relaciones interpersonales de calidad del esmerado cuidado con que los educadores atienden a las
+                necesidades de los estudiantes, ayuda a los estudiantes compementerse con si mismos, fortalenciendolos
+                para la vida</p>
             <a href="" class="btn">Saber más</a>
         </div>
         <div class="card">
             <img src="img/secundaria2.jpg" alt="MarcelinoChampagnat">
             <h4>Secundaria</h4>
-            <p>El colegio Santiago Marista es un lugar excelente de educacion a la vida, al desarrollo cultural, a la formacion profesional, al compromiso del bien comun, su finalidad es la educacion integral de la persona. Atravez del proceso educativo, ayuda a los estudiantes compranden el presente e imaginen el futuro de la sociedad y de la humanidad.</p>
+            <p>El colegio Santiago Marista es un lugar excelente de educacion a la vida, al desarrollo cultural, a la
+                formacion profesional, al compromiso del bien comun, su finalidad es la educacion integral de la
+                persona. Atravez del proceso educativo, ayuda a los estudiantes compranden el presente e imaginen el
+                futuro de la sociedad y de la humanidad.</p>
             <a href="" class="btn">Saber más</a>
         </div>
     </div>
@@ -93,19 +121,22 @@
         <div class="card card2">
             <img src="img/LogoMaristaBolivia2.png" alt="LogoMarista">
             <h4>Pastoral Educativa</h4>
-            <p>Hoy atravez de la accion educativo pastoral de hermanos laicos se hace realida el anhelo de Champagnat "No puedo ver a un joven sin decirle cuanto le ama a Jesus".</p>
+            <p>Hoy atravez de la accion educativo pastoral de hermanos laicos se hace realida el anhelo de Champagnat
+                "No puedo ver a un joven sin decirle cuanto le ama a Jesus".</p>
 
         </div>
         <div class="card card2">
             <img src="img/SantiagoMarista.jpg" alt="LosMaristas">
             <h4>Los Maristas</h4>
-            <p>Consideremos a la educacion como nuestro ambito priviligiado de evangelizacion y promocion humana. un medio maravilloso para llevar a los niños, adolescentes y jovenes a la experiencia de la fe.</p>
+            <p>Consideremos a la educacion como nuestro ambito priviligiado de evangelizacion y promocion humana. un
+                medio maravilloso para llevar a los niños, adolescentes y jovenes a la experiencia de la fe.</p>
 
         </div>
         <div class="card card2">
             <img src="img/marcelino_champagnat.jpg" alt="MarcelinoChampagnat">
             <h4>Marcelino Champagnat</h4>
-            <p>No puedo ver a un niño o un joven sin sentir profundas ganas de gritarle lo hermoso que es vivir y el gran amor que el Padre nos tiene.</p>
+            <p>No puedo ver a un niño o un joven sin sentir profundas ganas de gritarle lo hermoso que es vivir y el
+                gran amor que el Padre nos tiene.</p>
 
         </div>
     </div>
@@ -131,10 +162,14 @@
                 <div class="logo-redes">
                     <h2 class="h2-footer">Redes Sociales</h2>
 
-                    <a class="a-footer" href="https://fb.me/santiagomaristabolivia"><i class="fab fa-facebook icon-social"></i></a>
-                    <a class="a-footer" href="https://twitter.com/maristasantiago"><i class="fab fa-twitter icon-social"></i></a>
-                    <a class="a-footer" href="https://www.instagram.com/santiagomaristabo/"><i class="fab fa-instagram icon-social"></i></a>
-                    <a class="a-footer" href="https://www.youtube.com/channel/UCPsHCj9Z2RLa4vn91unGinw"><i class="fab fa-youtube icon-social"></i></a>
+                    <a class="a-footer" href="https://fb.me/santiagomaristabolivia"><i
+                            class="fab fa-facebook icon-social"></i></a>
+                    <a class="a-footer" href="https://twitter.com/maristasantiago"><i
+                            class="fab fa-twitter icon-social"></i></a>
+                    <a class="a-footer" href="https://www.instagram.com/santiagomaristabo/"><i
+                            class="fab fa-instagram icon-social"></i></a>
+                    <a class="a-footer" href="https://www.youtube.com/channel/UCPsHCj9Z2RLa4vn91unGinw"><i
+                            class="fab fa-youtube icon-social"></i></a>
 
                     <!-- <i class="fab fa-facebook icon-social"></i>
                     <i class="fab fa-twitter icon-social"></i>
@@ -145,7 +180,8 @@
                 <div class="soporte">
                     <h2 class="h2-footer">Soporte</h2>
                     <ul>
-                        <li class="list-footer"><a class="a-footer" href="html/contacto.html#preguntas">Preguntas Frecuentes</a></li>
+                        <li class="list-footer"><a class="a-footer" href="html/contacto.html#preguntas">Preguntas
+                                Frecuentes</a></li>
                         <li class="list-footer"><a class="a-footer" href="html/contacto.html">Contactanos</a></li>
                         <li class="list-footer"><a class="a-footer" href="html/contacto.html">Direccion</a></li>
                         <li class="list-footer"><a class="a-footer" href="">Terminos y Condiciones</a></li>
