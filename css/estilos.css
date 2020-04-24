@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    letter-spacing: -0.015em;
 }
 html{
     scroll-behavior: smooth;
@@ -284,7 +288,7 @@ label{
 }
 
 .container-info{
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -723,7 +727,7 @@ footer{
 **/
 section {
     margin: 0;
-    padding: 50px;
+    /* padding: 50px; */
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -812,4 +816,18 @@ section {
 }
 .fa-envelope:before {
     content: "\f0e0";
+}
+.respuesta{
+    margin: 0 0 2em 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 18.5px;
+}
+.title-info{
+    font-weight: 500;
+    margin: 0 0 0.5em 0;
+
 }
