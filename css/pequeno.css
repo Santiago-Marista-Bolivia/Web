@@ -83,6 +83,7 @@
     .contaniner-city {
         padding: 0;
         width: 90%;
+        display: block;
     }
     .section-city {
         width: 90%;
