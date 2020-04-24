@@ -135,5 +135,57 @@
         padding: 20px;
     }
     
+    #contact {
+        border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+        overflow-x: hidden;
+ 
+        padding: 1em 0;
+    }
+    #contact > .inner {
+        padding: 0 !important;
+        display: block;
+    }
+    #contact > .inner > :nth-child(2n - 1) {
+        border-right: 0;
+        width: 100%;
+    }
+    #contact > .inner > :nth-child(2n - 1) {
+        padding: 3em 0 1em 0;
+    }
     
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    .inner {
+        margin: 0 auto;
+        max-width: 65em;
+        width: calc(116% - 6em);
+    }
+    #contact > .inner > .split {
+        padding: 0;
+    }
+    
+    #contact > .inner > :nth-child(2n) {
+        padding-left: 0;
+        width: 100%;
+    }
+    #contact > .inner > .split > * {
+        padding: 3em 0 1em 0;
+        position: relative;
+    }
+    #contact > .inner > .split > *:before {
+        border-bottom: solid 1px rgba(0, 0, 0, 0.16);
+        content: '';
+        display: block;
+        margin-left: -3em;
+        position: absolute;
+        top: 0;
+        width: calc(100vw + 3em);
+    }
+    .titulo {
+        text-align: center;
+        padding: 1em;
+        font-size: 28px;
+    }
 }

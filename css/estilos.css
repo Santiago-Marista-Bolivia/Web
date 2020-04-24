@@ -226,7 +226,7 @@ label{
 
 .bienvenido-information > p{
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -235,11 +235,17 @@ label{
     width: 35px;
 }
 
-.bienvenido, .bienvenido-information{
+.bienvenido{
     position: absolute;
     padding: 50px;
     width: 50%;
-    padding-top: 350px;
+    padding-top: 350px; 
+}
+.bienvenido-information{
+    position: absolute;
+    padding: 50px;
+    width: 50%;
+    padding-top: 150px; 
 }
 
 .bienvenido h1{
@@ -515,7 +521,7 @@ input[type="submit"], .btnform{
     min-width: 180px;
     height: 50px;
     font-weight: 500;
-    background-color: #DDDDDD;
+    background-color: #544BDC;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
@@ -524,6 +530,7 @@ input[type="submit"], .btnform{
     border-style: none;
     padding-right: 15px;
     padding-left: 15px;
+    color: #ffffff;
 }
 input[type="submit"]:hover, .btnform:hover{
     cursor: pointer;
@@ -533,7 +540,7 @@ input[type="submit"]:hover, .btnform:hover{
 }
 .mapa-information{
     width: 600px;
-    margin-left: 50.5px;
+    margin-left: 50px;
 }
 .information-div{
     padding: 15px;
@@ -548,7 +555,7 @@ input[type="submit"]:hover, .btnform:hover{
     font-size: 28px;
     font-weight: 600;
     line-height: 1;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 50px;
@@ -711,7 +718,98 @@ footer{
 }
 
 
+/* Estiloss csss
+** De la parte de informacion
+**/
+section {
+    margin: 0;
+    padding: 50px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+#contact {
+    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+    overflow-x: hidden;
+    border-top: solid 1px;
+    position: relative;
+}
+.titulo {
+    text-align: center;
+    padding: 1em;
+    font-size: 50px;
+}
+#contact > .inner {
+    display: flex;
+    padding: 0 !important;
+}
+.inner {
+    /* padding: 4em 0 2em 0; */
+    margin: 0 auto;
+    max-width: 65em;
+    width: calc(100% - 6em);
+}
+#contact > .inner > :nth-child(2n - 1) {
+    padding: 4em 3em 2em 0;
+    border-right: solid 1px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    color: black;
+}
+#contact > .inner > :nth-child(2n) {
+    width: 40%;
+}
+#contact > .inner > .split > * {
+    padding: 3em 0 1em 3em;
+    position: relative;
+}
+#contact > .inner > .split > *:before {
+    border-top: solid 1px rgba(0, 0, 0, 0.16);
+    content: '';
+    display: block;
+    margin-left: -3em;
+    position: absolute;
+    top: 0;
+    width: calc(25vw + 3em);
+}
+.contact-method {
+    margin: 0 0 2em 0;
+    padding-left: 3.25em;
+    position: relative;
+}
+.contact-method .icon {
+    left: 0;
+    position: absolute;
+    top: 0;
+    padding-right: 0px;
+}
+.cont {
+    margin: 0 0 0.5em 0;
+    font-size: 1.35em;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.65;
+}
+.contd {
+    color: #000000;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    /* border-bottom: dotted 1px; */
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
 
-
-
-
+.icon.alt:before {
+    background-color: #000000;
+    border-radius: 100%;
+    color: #242943;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+    color: #ffffff;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+}

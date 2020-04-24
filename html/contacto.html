@@ -1,20 +1,260 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos | Santiago Marista</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/mediano.css">
-    <link rel="stylesheet" href="css/pequeno.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/mediano.css">
+    <link rel="stylesheet" href="../css/pequeno.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-    <script src="js/scroll.js"></script>
+    <script src="../js/scroll.js"></script>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <h2 class="logo">Santiago Marista</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="../index.html#FuturoEstudiane">Futuro Estudiante</a>
+            <a href="">Graduados</a>
+            <a href="">Pastoral</a>
+            <a href="../html/contacto.html">Contactanos</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </header>
+
+
+
+    <!--IMAGEN DE LA NAVEGACION-->
+    <div class="img-header-information" style="background-image: url(../img/img_3.jpg)">
+        <div class=" container-header">
+            <div class="degrade">
+                <div class="bienvnido bienvenido-information">
+                    <h1>Contactanos</h1>
+                    <p>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="">(+591) 4-4473119</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <label>Av. Segunda Circunvalacion, Pajcha, Cochabamba, Bolivia</label>
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <a href="">santiago_marista@hotmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contactd">
+        <h1 class="titulo">Colegio Santiago Marista</h1>
+        <div class="inner">
+           
+           
+            <section name="direccion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3234.914072785796!2d-66.16754043424675!3d-17.34971835910421!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49a6bf74e169c64f!2sSantiago+Marista!5e0!3m2!1ses-419!2sbo!4v1519593053735" width="575" height="660" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </section>
+            <section class="split">
+                <section>
+				    <div class="contact-method">
+				        <span class="icon alt fas fa-envelope"></span>
+				        <h3 class="cont">Email</h3>
+				        <a href="#" class="contd">santiago_marista@hotmail.com</a>
+				    </div>
+				</section>
+				<section>
+				    <div class="contact-method">
+				        <span class="icon alt fas fa-phone-alt"></span>
+				        <h3 class="cont">Telefono</h3>
+				        <span>(+591) 4-4473119</span>
+				    </div>
+				</section>
+				<section>
+				    <div class="contact-method">
+				        <span class="icon alt fas fa-map-marker-alt"></span>
+				        <h3 class="cont">Dirección</h3>
+				        <span>Av. Segunda Circunvalacion, Pajcha, Achanqara, Cochabamba<br>
+				                Cochabamba, 00000<br>
+								Bolivia</span>
+				    </div>
+				</section>
+                <section>
+				    <div class="contact-method">
+				        <span class="icon alt far fa-clock"></span>
+				        <h3 class="cont">Horarios</h3>
+				        <span>Lunes a Viernes<br>
+				        7:45 a 12:45
+				        </span>
+				    </div>
+				</section>
+            </section>
+        </div>
+    </section>
+
+    <div class="container-information" id="contacto">
+        <h1 class="titulo">Otras formas de Contactarnos</h1>
+        <div class="container-info">
+            <div class="formulario-information">
+                <div class="div-titulo">
+                    <h2>Ponte en contacto</h2>
+                </div>
+
+                <form action="">
+                    <div class="div-info">
+                        <input type="text" id="nombre" pattern="[A-Za-z].{5,}" class="form-control"
+                            placeholder="Nombre Completo" required>
+                    </div>
+                    <div class="div-info">
+                        <input type="email" id="correo" class="form-control" placeholder="Correo Electronico" required>
+                    </div>
+
+                    <div class="div-info">
+                        <input type="tel" id="telefono" class="form-control" placeholder="Numero de Telefono">
+                    </div>
+
+                    <div class="div-info">
+                        <input type="text"  class="form-control" placeholder="Asunto del Mensaje">
+                    </div>
+
+
+                    <div class="div-info">
+                        <!--cols="30" rows="30"-->
+                        <textarea name="adtional" class="form-control" id="Message" cols="30" rows="10"
+                            placeholder="Escriba su Mensaje"></textarea>
+                    </div>
+
+                    <div class="div-info">
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="mapa-information" id="faq">
+
+                <div class="div-titulo">
+                    <h2 class="title-info-pregunta" id="preguntas">Preguntas Frecuentes</h2>
+
+                </div>
+                <div>
+                    <div class="information-div">
+                        <h2 class="title-info">¿Cuanto tiempo tarda en responder?</h2>
+                        <p class="respuesta">Comumente se tarda de unas horas en responderte</p>
+                    </div>
+                    <div class="information-div">
+                        <h2 class="title-info">¿Puedo contactarme a los nuemero de contacto?</h2>
+                        <p class="respuesta">Si puedes hacerlo pero en los hoarios de 8:30 a 12:30 y de 15:00 a 18:00
+                            hora de Bolivia</p>
+                    </div>
+                    <div class="information-div">
+                        <h2 class="title-info">¿Hay otros lugares que se pueden visitar?</h2>
+                        <p class="respuesta">Si hay variios lugares en lo que puedes disfrutar de Bolivia</p>
+                    </div>
+                    <div class="information-div">
+                        <h2 class="title-info">¿Hay algun Peligro visitar estos lugares?</h2>
+                        <p class="respuesta">No, pero se se recomienda que cuide sus pertenecias en todo momento</p>
+                    </div>
+                    <div class="information-div">
+                        <h2 class="title-info">¿Puedo visitar solo los lugares?</h2>
+                        <p class="respuesta">Si, pero se recomienda ir acompañado o con un guia turistico</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-footer">
+                <div class="logo-redes">
+                    <h2 class="h2-footer">Redes Sociales</h2>
+
+                    <a class="a-footer" href="https://fb.me/santiagomaristabolivia"><i
+                            class="fab fa-facebook icon-social"></i></a>
+                    <a class="a-footer" href="https://twitter.com/maristasantiago"><i
+                            class="fab fa-twitter icon-social"></i></a>
+                    <a class="a-footer" href="https://www.instagram.com/santiagomaristabo/"><i
+                            class="fab fa-instagram icon-social"></i></a>
+                    <a class="a-footer" href="https://www.youtube.com/channel/UCPsHCj9Z2RLa4vn91unGinw"><i
+                            class="fab fa-youtube icon-social"></i></a>
+
+                    <!-- <i class="fab fa-facebook icon-social"></i>
+                    <i class="fab fa-twitter icon-social"></i>
+                    <i class="fab fa-instagram icon-social"></i>
+                    <i class="fab fa-youtube icon-social"></i> -->
+
+                </div>
+                <div class="soporte">
+                    <h2 class="h2-footer">Soporte</h2>
+                    <ul>
+                        <li class="list-footer"><a class="a-footer" href="../html/contacto.html#faq">Preguntas Frecuentes</a></li>
+                        <li class="list-footer"><a class="a-footer" href="../html/contacto.html#contacto">Contactanos</a></li>
+                        <li class="list-footer"><a class="a-footer" href="../html/contacto.html#contact">Direccion</a></li>
+                        <li class="list-footer"><a class="a-footer" href="">Terminos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="listas-footer">
+                    <h2 class="h2-footer">Maristas Bolivia</h2>
+                    <ul>
+                        <li class="list-footer"><a class="a-footer" href="">Otros Colegios</a></li>
+                        <li class="list-footer"><a class="a-footer" href="">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="ciudades">
+                    <h2 class="h2-footer">Pastoral</h2>
+                    <ul>
+                        <li class="list-footer"><a class="a-footer" href="">Infancia Misionera</a></li>
+                        <li class="list-footer"><a class="a-footer" href="">Gamma</a></li>
+                        <li class="list-footer"><a class="a-footer" href="">Marcha</a></li>
+                        <li class="list-footer"><a class="a-footer" href="">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Copyright © 2020 | Santiago Marista</p>
+                <p>Copyright © 2020 | Alberto Zarraga</p>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
