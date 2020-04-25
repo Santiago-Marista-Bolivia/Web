@@ -1,26 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
-*{
+* {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     letter-spacing: -0.015em;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /* header{
     width: 100%;
     height: 100px;;
-    /*background-color: rgba(0, 0, 0, 0.4);*/ /*ARREGLAR ESTO*/
-    /*position: fixed;/*
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+
+/*ARREGLAR ESTO*/
+
+/*position: fixed;/*
     background-size: cover;
     background-position: center;
     overflow: hidden;*/
-    /*z-index: 99;
+
+/*z-index: 99;
 } */
+
 .header {
     width: 100%;
     height: 100px;
@@ -31,22 +39,23 @@ html{
     z-index: 99;
     transition: 0.5s;
 }
+
 .header2 {
     background-color: rgba(0, 0, 0, 0.87);
     transition: 0.5s;
 }
-.logo{
+
+.logo {
     line-height: 100px;
     float: left;
     text-transform: uppercase;
     width: auto;
-  }
+}
 
-
-
-.container{
+.container {
     width: 80%;
-    height: 100px;;
+    height: 100px;
+    ;
     /*background: red;*/
     margin: auto;
     height: 100%!important;
@@ -55,14 +64,13 @@ html{
     position: relative;
     align-items: center!important;
 }
+
 /*
 .logo img{
 }*/
 
-
-
-
 /*menu*/
+
 /* nav{
     width: 70%;
     height: 70px;
@@ -84,41 +92,46 @@ nav ul li a{
     letter-spacing: 1px;
 
 } */
-.menu{
+
+.menu {
     float: right;
     line-height: 100px;
-  }
-  .menu a{
+}
+
+.menu a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 10px;
     transition: 0.4s;
-  }
-  .show-menu-btn,.hide-menu-btn{
+}
+
+.show-menu-btn, .hide-menu-btn {
     transition: 0.4s;
     font-size: 30px;
     cursor: pointer;
     display: none;
-  }
-  .show-menu-btn{
+}
+
+.show-menu-btn {
     float: right;
-  }
-  .show-menu-btn em{
+}
+
+.show-menu-btn em {
     line-height: 100px;
-  }
-  .menu a:hover,
-  .show-menu-btn:hover,
-  .hide-menu-btn:hover{
+}
+
+.menu a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
     color: #544BDC;
-  }
-  
-  #chk{
+}
+
+#chk {
     position: absolute;
     visibility: hidden;
     z-index: -1111;
-  }
-  ul {
+}
+
+ul {
     list-style: none;
 }
 
@@ -126,8 +139,7 @@ label {
     color: #ffffff;
 }
 
-.img-header{
-    
+.img-header {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -140,7 +152,7 @@ label {
     z-index: 98;
 }
 
-.img-header-information{
+.img-header-information {
     position: relative;
     background-position: center;
     background-size: cover;
@@ -152,16 +164,20 @@ label {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-div{
+
+div {
     display: block;
 }
-ul{
+
+ul {
     list-style: none;
 }
-label{
+
+label {
     color: #ffffff;
 }
-.container-header{
+
+.container-header {
     height: 100%!important;
     width: 80%;
     padding-right: 15px;
@@ -170,7 +186,7 @@ label{
     margin-left: auto;
 }
 
-.degrade{
+.degrade {
     height: 100%!important;
     display: flex;
     flex-wrap: wrap;
@@ -188,6 +204,7 @@ label{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
+
 .section-info:after {
     content: '';
     position: absolute;
@@ -198,7 +215,8 @@ label{
     background-color: rgba(0, 0, 0, 0.8);
     z-index: -1;
 }
-.img-header-information:before{
+
+.img-header-information:before {
     width: calc(50% - 112px);
     height: 100%;
     top: 0;
@@ -207,14 +225,15 @@ label{
     content: "";
     position: absolute;
 }
-.bienvenido-information h1{
+
+.bienvenido-information h1 {
     color: #fff;
     font-size: 60px;
     line-height: 1;
     margin-bottom: 70px;
-    
 }
-.bienvenido-information p a{
+
+.bienvenido-information p a {
     color: #fff;
     margin-right: 15px;
     display: inline-block;
@@ -222,51 +241,56 @@ label{
     font-weight: 600;
     outline: none;
 }
-.fas{
+
+.fas {
     display: inline-block;
     padding-right: 20px;
     color: #ffffff;
 }
 
-.bienvenido-information > p{
+.bienvenido-information>p {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.bienvenido p i{
+.bienvenido p i {
     width: 35px;
 }
 
-.bienvenido{
+.bienvenido {
     position: absolute;
     padding: 50px;
     width: 50%;
-    padding-top: 350px; 
-}
-.bienvenido-information{
-    position: absolute;
-    padding: 50px;
-    width: 50%;
-    padding-top: 150px; 
+    padding-top: 350px;
 }
 
-.bienvenido h1{
+.bienvenido-information {
+    position: absolute;
+    padding: 50px;
+    width: 50%;
+    padding-top: 150px;
+}
+
+.bienvenido h1 {
     font-size: 4em;
     color: #ffffff;
     font-weight: 500;
     text-align: left;
     display: inline-block;
 }
+
 .bienvenido-section .fas {
     padding-top: 30px;
     font-size: 44px;
 }
-.bienvenido2{
+
+.bienvenido2 {
     visibility: hidden;
 }
-.btn{
+
+.btn {
     display: inline-block;
     min-width: 180px;
     height: 50px;
@@ -280,40 +304,44 @@ label{
 }
 
 /*HOME INFORMATION*/
-.container-information{
+
+.container-information {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 40px;
 }
 
-.container-info{
+.container-info {
     width: 90%;
     height: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-form{
+
+form {
     display: block;
 }
-.div-info{
+
+.div-info {
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
-.formulario-information{
+
+.formulario-information {
     width: 600px;
     margin-right: 67.5px;
-    
 }
-.mapa-information{
+
+.mapa-information {
     width: 600px;
-    
 }
-.form-control{
+
+.form-control {
     border: none;
     border-bottom: 1px solid #c1c1c1;
     border-radius: 0;
@@ -328,7 +356,8 @@ form{
     background-image: none;
     background-clip: padding-box;
 }
-.div-titulo h2{
+
+.div-titulo h2 {
     font-size: 22px;
     font-weight: 600;
     line-height: 1;
@@ -336,12 +365,12 @@ form{
     padding-right: 15px;
     padding-left: 15px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     display: inline-block;
     min-width: 180px;
     height: 50px;
     font-weight: 500;
-    
     line-height: 50px;
     text-align: center;
     text-decoration: none;
@@ -349,29 +378,24 @@ input[type="submit"]{
     color: black;
     border-style: none;
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     cursor: pointer;
     background-color: #544BDC;
     color: white;
     transition: all 300ms;
 }
 
-
-
-
-
-
-
 /*card*/
-.title{
+
+.title {
     text-align: center;
     font-size: 50px;
     margin-top: 100px;
     margin-bottom: 70px;
 }
 
-
-.container-ciudades{
+.container-ciudades {
     width: 100%;
     max-width: 1200px;
     height: auto;
@@ -381,7 +405,8 @@ input[type="submit"]:hover{
     margin: auto;
     margin-bottom: 80px;
 }
-.container-ciudades .card{
+
+.container-ciudades .card {
     width: 330px;
     height: auto;
     border-radius: 20px;
@@ -392,38 +417,38 @@ input[type="submit"]:hover{
     transition: all 0.25s;
 }
 
-.container-ciudades .card:hover{
+.container-ciudades .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-
 }
-.container-ciudades .card img{
+
+.container-ciudades .card img {
     width: 330px;
     height: 220px;
-
 }
-.container-ciudades .card2 img{
+
+.container-ciudades .card2 img {
     width: 100%;
     height: 250px;
-
 }
-.container-ciudades .card h4{
+
+.container-ciudades .card h4 {
     font-weight: 600;
     font-size: 20px;
     margin-top: 12px;
     padding: 12px;
 }
-.container-ciudades .card p{
+
+.container-ciudades .card p {
     padding: 15px;
     font-size: 16px;
     padding: 29px;
     display: block;
     letter-spacing: 1px;
     margin-bottom: 12px;
-    
 }
 
-.container-ciudades .card a{
+.container-ciudades .card a {
     font-weight: 500;
     text-decoration: none;
     display: block;
@@ -432,9 +457,9 @@ input[type="submit"]:hover{
     margin-bottom: 25px;
 }
 
-
 /*SECTION*/
-.section-info{
+
+.section-info {
     position: relative;
     background-size: cover;
     background-position: center;
@@ -448,55 +473,59 @@ input[type="submit"]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.section-info h2{
+
+.section-info h2 {
     padding-bottom: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 2.1rem;
     position: relative;
 }
-.section-info h4{
+
+.section-info h4 {
     margin-bottom: .5rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     font-size: 1.3rem;
 }
-.section-info a{
+
+.section-info a {
     margin-top: 15px;
 }
 
-
 /*FORMULARIO CONTACTO*/
 
-form{
+form {
     display: block;
 }
-.div-info{
+
+.div-info {
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
-.formulario-information{
+
+.formulario-information {
     width: 600px;
     margin-right: 67.5px;
-    
 }
-.mapa-information{
+
+.mapa-information {
     width: 600px;
-    
 }
-.respuesta{
+
+.respuesta {
     font-size: 18px;
     line-height: 1;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-.form-control{
+
+.form-control {
     border: none;
     border-bottom: 1px solid #c1c1c1;
     border-radius: 0;
@@ -511,7 +540,8 @@ form{
     background-image: none;
     background-clip: padding-box;
 }
-.div-titulo h2{
+
+.div-titulo h2 {
     font-size: 28px;
     font-weight: 600;
     line-height: 1;
@@ -520,7 +550,8 @@ form{
     padding-left: 15px;
     margin-top: 50px;
 }
-input[type="submit"], .btnform{
+
+input[type="submit"], .btnform {
     display: inline-block;
     min-width: 180px;
     height: 50px;
@@ -536,26 +567,31 @@ input[type="submit"], .btnform{
     padding-left: 15px;
     color: #ffffff;
 }
-input[type="submit"]:hover, .btnform:hover{
+
+input[type="submit"]:hover, .btnform:hover {
     cursor: pointer;
     background-color: #544BDC;
     color: white;
     transition: all 300ms;
 }
-.mapa-information{
+
+.mapa-information {
     width: 600px;
     margin-left: 50px;
 }
-.information-div{
+
+.information-div {
     padding: 15px;
 }
-.title-info{
+
+.title-info {
     font-size: 22px;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 20px;
 }
-.title-info-pregunta{
+
+.title-info-pregunta {
     font-size: 28px;
     font-weight: 600;
     line-height: 1;
@@ -564,15 +600,18 @@ input[type="submit"]:hover, .btnform:hover{
     padding-left: 15px;
     margin-top: 50px;
 }
-.lblradio{
+
+.lblradio {
     color: rgba(51, 51, 51, 0.60);
     margin-left: 20px;
     margin-right: 12px;
 }
-.lbl-control{
+
+.lbl-control {
     margin-right: 10px;
 }
-.lbl-info{
+
+.lbl-info {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -580,47 +619,50 @@ input[type="submit"]:hover, .btnform:hover{
     padding-left: 15px;
     margin-bottom: 25px;
 }
-.lbl-title{
+
+.lbl-title {
     color: rgba(51, 51, 51, 0.60);
     margin-bottom: 20px;
     width: 100%;
     min-height: 1px;
 }
 
-.information-div a{
+.information-div a {
     margin-left: 20px;
 }
 
 /*FOOTER*/
-footer{
+
+footer {
     width: 100%;
     background-color: #333333;
-    
 }
-.container-footer{
+
+.container-footer {
     width: 80%;
     height: auto;
     margin: auto;
-    
     display: flex;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
 }
-.logo-redes{
+
+.logo-redes {
     max-width: 400px;
 }
 
-.soporte{
+.soporte {
     max-width: 400px;
 }
 
-.listas-footer{
+.listas-footer {
     max-width: 400px;
 }
-.ciudades{
+
+.ciudades {
     max-width: 400px;
 }
-.copy{
+
+.copy {
     width: 80%;
     margin: auto;
     text-align: left;
@@ -632,23 +674,27 @@ footer{
     padding-left: 0px;
     padding-right: 0px;
 }
-.copy p{
+
+.copy p {
     margin-bottom: 2px;
 }
-.list-footer{
+
+.list-footer {
     padding: 4px 0;
     margin: auto;
     line-height: 20px;
     padding-left: 10px;
 }
-.a-footer{
+
+.a-footer {
     color: white;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 1px;
 }
-.h2-footer{
+
+.h2-footer {
     padding: 20px;
     padding-left: 10px;
     margin: auto;
@@ -657,47 +703,51 @@ footer{
     margin: 0 0 10px;
     font-weight: 400;
 }
-.icon-social{
+
+.icon-social {
     color: white;
     margin: auto;
     font-size: 20px;
     padding: 4px 0;
     padding-left: 10px;
 }
-.container-footer-all{
 
+.container-footer-all {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 40px;
-
 }
 
 /*HOME DE LAS CIUDADES */
-.p-div-section{
+
+.p-div-section {
     width: 100%;
 }
-.contaniner-city{
+
+.contaniner-city {
     width: 70%;
     height: auto;
     margin: auto;
-    
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
-.section-city{
+
+.section-city {
     width: 65%;
     margin: auto;
     display: block;
     margin-top: 100px;
     padding-bottom: 70px;
 }
-.section-city h2{
+
+.section-city h2 {
     font-size: 40px;
     /* margin-top: 60px; */
     margin-bottom: 25px;
 }
-.section-city p{
+
+.section-city p {
     padding: 15px;
     font-size: 20px;
     display: block;
@@ -705,28 +755,30 @@ footer{
     margin-bottom: 12px;
 }
 
-
 /*FECHA*/
-.hora{
+
+.hora {
     color: white;
     padding: 10px;
     font-size: 18px;
 }
-.logoimg{
+
+.logoimg {
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
-.img-div{
+
+.img-div {
     padding: 12px;
     text-align: left;
     margin: 0;
 }
 
-
 /* Estiloss csss
 ** De la parte de informacion
 **/
+
 section {
     margin: 0;
     /* padding: 50px; */
@@ -734,6 +786,7 @@ section {
     font: inherit;
     display: block;
 }
+
 #contact {
     border-bottom: solid 1px rgba(212, 212, 255, 0.1);
     overflow-x: hidden;
@@ -741,35 +794,42 @@ section {
     position: relative;
     margin-top: 25px;
 }
+
 .titulo {
     text-align: center;
     padding: 1em;
     font-size: 50px;
 }
-#contact > .inner {
+
+#contact>.inner {
     display: flex;
     padding: 0 !important;
 }
+
 .inner {
     /* padding: 4em 0 2em 0; */
     margin: 0 auto;
     max-width: 65em;
     width: calc(100% - 6em);
 }
-#contact > .inner > :nth-child(2n - 1) {
+
+#contact>.inner> :nth-child(2n - 1) {
     padding: 4em 3em 2em 0;
     border-right: solid 1px rgba(0, 0, 0, 0.1);
     width: 70%;
     color: black;
 }
-#contact > .inner > :nth-child(2n) {
+
+#contact>.inner> :nth-child(2n) {
     width: 40%;
 }
-#contact > .inner > .split > * {
+
+#contact>.inner>.split>* {
     padding: 3em 0 1em 3em;
     position: relative;
 }
-#contact > .inner > .split > *:before {
+
+#contact>.inner>.split>*:before {
     border-top: solid 1px rgba(0, 0, 0, 0.16);
     content: '';
     display: block;
@@ -778,17 +838,20 @@ section {
     top: 0;
     width: calc(25vw + 3em);
 }
+
 .contact-method {
     margin: 0 0 2em 0;
     padding-left: 3.25em;
     position: relative;
 }
+
 .contact-method .icon {
     left: 0;
     position: absolute;
     top: 0;
     padding-right: 0px;
 }
+
 .cont {
     margin: 0 0 0.5em 0;
     font-size: 1.35em;
@@ -796,6 +859,7 @@ section {
     font-weight: 600;
     line-height: 1.65;
 }
+
 .contd {
     color: #000000;
     transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -816,10 +880,12 @@ section {
     width: 2em;
     color: #ffffff;
 }
+
 .fa-envelope:before {
     content: "\f0e0";
 }
-.respuesta{
+
+.respuesta {
     margin: 0 0 2em 0;
     display: block;
     -webkit-margin-before: 1em;
@@ -828,12 +894,13 @@ section {
     -webkit-margin-end: 0px;
     font-size: 18.5px;
 }
-.title-info{
+
+.title-info {
     font-weight: 500;
     margin: 0 0 0.5em 0;
-
 }
-.labelPastoral{
+
+.labelPastoral {
     color: #fff;
     margin-right: 15px;
     display: inline-block;
