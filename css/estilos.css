@@ -104,7 +104,7 @@ nav ul li a{
   .show-menu-btn{
     float: right;
   }
-  .show-menu-btn i{
+  .show-menu-btn em{
     line-height: 100px;
   }
   .menu a:hover,
