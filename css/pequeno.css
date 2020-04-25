@@ -28,7 +28,7 @@
     .bienvenido h1 {
         font-size: 2em;
     }
-    .bienvenido2{
+    .bienvenido2 {
         position: static;
         padding: 5px;
         padding-top: 550px;
@@ -36,7 +36,7 @@
         margin-left: 20px;
         justify-content: flex-end;
     }
-    .bienvenido2 .fas{
+    .bienvenido2 .fas {
         width: 100%;
         justify-content: center;
         font-size: 36px;
@@ -44,7 +44,6 @@
         text-align: center;
         display: flex;
         visibility: visible;
-
     }
     .btn {
         margin-top: 20px;
@@ -86,7 +85,7 @@
         width: 600px;
         margin-left: 0;
     }
-    .mapa-information2{
+    .mapa-information2 {
         width: auto;
         margin-left: 0;
     }
@@ -98,21 +97,15 @@
     .section-city {
         width: 90%;
     }
-
-
-
- 
-    
-    
-    .show-menu-btn,.hide-menu-btn{
+    .show-menu-btn, .hide-menu-btn {
         display: block;
-      }
-      .logo{
-          width: auto;
-          font-size: 18px;
-          padding: 5px;
-      }
-      .menu{
+    }
+    .logo {
+        width: auto;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .menu {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -123,21 +116,20 @@
         padding: 80px 0;
         line-height: normal;
         transition: 0.7s;
-      }
-      .menu a{
+    }
+    .menu a {
         display: block;
         padding: 20px;
-      }
-      .hide-menu-btn{
+    }
+    .hide-menu-btn {
         position: absolute;
         top: 40px;
         right: 40px;
-      }
-      #chk:checked ~ .menu{
+    }
+    #chk:checked~.menu {
         right: 0;
-      }
-
-      .section-info h4 {
+    }
+    .section-info h4 {
         margin-bottom: .5rem;
         font-family: inherit;
         font-weight: 500;
@@ -145,25 +137,22 @@
         font-size: 1.3rem;
         padding: 20px;
     }
-    
     #contact {
         border-bottom: solid 1px rgba(212, 212, 255, 0.1);
         overflow-x: hidden;
- 
         padding: 1em 0;
     }
-    #contact > .inner {
+    #contact>.inner {
         padding: 0 !important;
         display: block;
     }
-    #contact > .inner > :nth-child(2n - 1) {
+    #contact>.inner> :nth-child(2n - 1) {
         border-right: 0;
         width: 100%;
     }
-    #contact > .inner > :nth-child(2n - 1) {
+    #contact>.inner> :nth-child(2n - 1) {
         padding: 3em 0 1em 0;
     }
-    
     iframe {
         width: 100%;
         height: 400px;
@@ -173,19 +162,18 @@
         max-width: 65em;
         width: calc(116% - 6em);
     }
-    #contact > .inner > .split {
+    #contact>.inner>.split {
         padding: 0;
     }
-    
-    #contact > .inner > :nth-child(2n) {
+    #contact>.inner> :nth-child(2n) {
         padding-left: 0;
         width: 100%;
     }
-    #contact > .inner > .split > * {
+    #contact>.inner>.split>* {
         padding: 3em 0 1em 0;
         position: relative;
     }
-    #contact > .inner > .split > *:before {
+    #contact>.inner>.split>*:before {
         border-bottom: solid 1px rgba(0, 0, 0, 0.16);
         content: '';
         display: block;
