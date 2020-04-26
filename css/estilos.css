@@ -909,3 +909,22 @@ section {
     outline: none;
     font-size: 22px;
 }
+/**
+** POLITCAS DE COOKIES
+**/
+.section-city-cookies{
+   
+    width: 65%;
+    margin: auto;
+    display: block;
+    margin-top: 80px;
+    padding-bottom: 0px;
+ 
+}
+.section-city-cookies p {
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
